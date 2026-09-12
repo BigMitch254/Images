@@ -75,7 +75,7 @@ Kito-Wild-Ones/
 ├── episodes/                  # episode packages
 ├── renders/ exports/ shorts/
 └── tools/
-    └── animation/             # FUTURE: Remotion project (not scaffolded yet)
+    └── animation/             # Remotion + React + TypeScript project
         ├── package.json
         ├── src/
         │   ├── characters/    # placeholder components first
@@ -103,8 +103,8 @@ Kito-Wild-Ones/
 ## Safety / production rules
 
 - Do not install Blender automatically
-- Do not `npm install` large stacks until the creator approves the Remotion scaffold step
-- Do not generate final character art in this phase
+- Remotion scaffold is approved and present under `tools/animation/`
+- Do not generate final series character art in this phase
 - Keep masters; never overwrite without permission
 - Human creator approves architecture changes that affect locked tooling
 
@@ -117,6 +117,6 @@ Kito-Wild-Ones/
 | Foundation folders/docs | Done |
 | Character + Visual bibles | Done (Phase 2) |
 | Architecture recommendation | Done (this doc) |
-| Remotion project scaffold | **Not started** (awaiting approval) |
-| Test render | **Not started** (Remotion not installed) |
+| Remotion project scaffold | **Done** — `tools/animation/` |
+| Test render | **Done** — `renders/tests/pip-walk-wave-v001.mp4` (1920×1080) |
 | Episode 1 | **Blocked by design** until creator requests |

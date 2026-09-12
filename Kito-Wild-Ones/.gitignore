@@ -37,6 +37,13 @@ exports/**
 *.wav
 *.aiff
 *.flac
+# Keep small Pip technical-test audio in-repo so Remotion clones work
+!tools/animation/public/audio/
+!tools/animation/public/audio/**
+!sound-effects/tests/
+!sound-effects/tests/**
+!music/tests/
+!music/tests/**
 *.psd
 *.psb
 *.blend1

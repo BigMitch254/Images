@@ -80,7 +80,7 @@ See `docs/TECHNICAL-ARCHITECTURE.md` for the full decision.
 **Optional later:** Blender on the Windows PC only if needed for 3D — not required to start.  
 Do not install tools without the creator’s approval.
 
-Also see: `docs/TEST-ANIMATION-SPEC.md`, `docs/WINDOWS-SYNC.md`, `docs/SOFTWARE-CHECK.md`.
+Also see: `docs/TEST-ANIMATION-SPEC.md`, `docs/TEST-ANIMATION-RESULTS.md`, `docs/WINDOWS-SYNC.md`, `docs/SOFTWARE-CHECK.md`.
 
 ## Episode workflow
 
@@ -125,7 +125,7 @@ Design the studio for growth without chaos:
 
 ## Project status
 
-**Phase 2 — bibles + architecture.** Character and visual specifications are written. No final character artwork, Episode 1 production, voices, music, or renders have been started yet.
+**Phase 3 — Remotion + Pip technical test.** Character/visual bibles are written. Remotion is scaffolded under `tools/animation/`. A non-canon Pip proof render exists at `renders/tests/pip-walk-wave-v001.mp4`. No final series character artwork, Episode 1, voices, or series music yet.
 
 ## Intended local PC path
 

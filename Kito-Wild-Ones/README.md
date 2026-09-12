@@ -2,7 +2,7 @@
 
 **Big Adventures. Little Lessons.**
 
-Original children's animation studio project (Phase 2: bibles + architecture).
+Original children's animation studio project (Phase 3: Remotion scaffold + Pip technical test).
 
 - Project: `docs/PROJECT-README.md`
 - Characters: `docs/CHARACTER-BIBLE.md`
@@ -10,6 +10,8 @@ Original children's animation studio project (Phase 2: bibles + architecture).
 - Pipeline: `docs/PRODUCTION-PIPELINE.md`
 - Tech: `docs/TECHNICAL-ARCHITECTURE.md`
 - Test scene: `docs/TEST-ANIMATION-SPEC.md`
+- Test results: `docs/TEST-ANIMATION-RESULTS.md`
+- Remotion app: `tools/animation/`
 - Windows sync: `docs/WINDOWS-SYNC.md`
 - Studio rules: `.cursor/rules/studio.mdc`
 
