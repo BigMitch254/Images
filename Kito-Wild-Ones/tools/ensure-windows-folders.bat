@@ -1,6 +1,19 @@
 @ECHO OFF
-REM Recreate Kito-Wild-Ones folders on the Windows PC if needed.
-REM Run from: C:\Users\HP\AnimationStudio
+REM ============================================================
+REM Kito & the Wild Ones — SAFE folder ensurer (Windows)
+REM ============================================================
+REM WHAT THIS DOES:
+REM   Creates missing directories only (mkdir).
+REM WHAT THIS DOES NOT DO:
+REM   - Does not delete anything
+REM   - Does not overwrite files
+REM   - Does not copy docs/assets from Cloud/GitHub
+REM   - Does not install software
+REM NOTE:
+REM   This is NOT a full sync. Prefer Git clone/pull of Kito-Wild-Ones
+REM   into C:\Users\HP\AnimationStudio\Kito-Wild-Ones
+REM   See docs\WINDOWS-SYNC.md
+REM ============================================================
 SETROOT=C:\Users\HP\AnimationStudio\Kito-Wild-Ones
 mkdir "%SETROOT%" 2>nul
 mkdir "%SETROOT%\.cursor\rules" 2>nul
@@ -25,3 +38,4 @@ mkdir "%SETROOT%\exports" 2>nul
 mkdir "%SETROOT%\docs" 2>nul
 mkdir "%SETROOT%\tools" 2>nul
 ECHO Folder structure ready at %SETROOT%
+ECHO Reminder: this script only creates empty folders. Use Git sync for files.

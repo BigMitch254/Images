@@ -16,7 +16,7 @@ This repository contains an **original children's animation studio** project: **
 ## Consistency
 
 - Maintain **character consistency** with `docs/CHARACTER-BIBLE.md` and approved assets in `characters/`.
-- Maintain **visual consistency** with the Sunrise Valley world and established color, proportion, and style choices.
+- Maintain **visual consistency** with `docs/VISUAL-BIBLE.md` and established Sunrise Valley color, proportion, and style choices.
 - Do not invent conflicting redesigns without explicit creator approval.
 
 ## Audience & content

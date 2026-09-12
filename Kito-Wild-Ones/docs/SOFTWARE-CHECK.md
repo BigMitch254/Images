@@ -10,6 +10,12 @@ Checked during foundation setup. **Nothing was installed automatically.**
 | FFmpeg | Installed | 6.1.1 |
 | Python | Installed as `python3` | 3.12.3 (`python` command not found) |
 | Blender | **Missing** | not found on PATH |
+| Remotion / React / TypeScript project | **Not installed yet** | recommended in `TECHNICAL-ARCHITECTURE.md`; await creator approval before scaffolding |
+
+## Architecture note
+
+Phase 2 recommendation: **Remotion + React + TypeScript + FFmpeg (+ Python tooling)**.  
+Blender remains optional/later. See `docs/TECHNICAL-ARCHITECTURE.md`.
 
 ## Important path note
 

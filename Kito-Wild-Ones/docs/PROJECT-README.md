@@ -28,24 +28,26 @@ Stories should be:
 
 **Sunrise Valley** is the main setting: a bright, welcoming landscape where morning light paints the hills gold and the day always feels full of possibility.
 
-World building placeholders (to be expanded during production):
+See `docs/VISUAL-BIBLE.md` for the locked Phase 2 visual direction (environment, lighting, camera, color, cultural inspiration).
 
-- **Geography:** Rolling hills, friendly forests, a sparkling river, cozy homes, and open play spaces
+High-level world rules:
+
+- **Geography:** Rolling hills, acacia groves, a sparkling river, cozy communal clearings
 - **Tone:** Warm, hopeful, adventurous, never threatening
 - **Rules of the world:** Problems are solvable with kindness, creativity, and teamwork
-- **Visual mood:** Soft natural colors, readable shapes, strong silhouettes, inviting atmospheres
+- **Visual mood:** Cinematic sunrise light, readable shapes, premium child-friendly clarity
 
 ## Main characters
 
-| Character | Role (placeholder) |
-|-----------|--------------------|
-| **Kito** | Curious young lead explorer |
-| **Zuri** | Clever, caring friend |
-| **Bobo** | Playful, energetic companion |
-| **Jabari** | Brave, loyal friend |
-| **Mama Tembo** | Wise, grounding adult guide |
+| Character | Role | Species |
+|-----------|------|---------|
+| **Kito** | Curious young lead explorer | Human child |
+| **Zuri** | Clever, caring friend | Young zebra |
+| **Bobo** | Playful, energetic companion | Young rock hyrax |
+| **Jabari** | Brave, loyal friend | Young rhinoceros calf |
+| **Mama Tembo** | Wise, grounding adult guide | Adult elephant |
 
-See `docs/CHARACTER-BIBLE.md` for structured profiles and development placeholders.
+See `docs/CHARACTER-BIBLE.md` for full production specifications.
 
 ## Animation direction
 
@@ -70,21 +72,15 @@ Idea → Story → Script → Storyboard → Character assets → Backgrounds �
 
 Full detail: `docs/PRODUCTION-PIPELINE.md`
 
-## Technology stack (planned)
+## Technology stack (Phase 2 recommendation)
 
-Tools will be confirmed against the creator’s PC. Current foundation assumes a mix of:
+See `docs/TECHNICAL-ARCHITECTURE.md` for the full decision.
 
-| Area | Planned / candidate tools |
-|------|---------------------------|
-| Version control | Git |
-| Script & docs | Markdown in `scripts/` and `docs/` |
-| Storyboards / thumbnails | Image editors, drawing tools, Cursor-assisted planning |
-| Animation | To be selected by creator (e.g. Blender, 2D animation software) |
-| Audio | Voice recording tools, music/SFX libraries (original or licensed) |
-| Editing / export | Video editor + FFmpeg for processing |
-| Automation helpers | Node.js / Python scripts in `tools/` when needed |
+**Recommended primary stack:** Remotion + React + TypeScript + FFmpeg (+ light Python tooling).  
+**Optional later:** Blender on the Windows PC only if needed for 3D — not required to start.  
+Do not install tools without the creator’s approval.
 
-Software detection for this environment is reported separately during setup. Do not install tools without the creator’s approval.
+Also see: `docs/TEST-ANIMATION-SPEC.md`, `docs/WINDOWS-SYNC.md`, `docs/SOFTWARE-CHECK.md`.
 
 ## Episode workflow
 
@@ -129,7 +125,7 @@ Design the studio for growth without chaos:
 
 ## Project status
 
-**Foundation only.** No character artwork, Episode 1 production, voices, music, or renders have been started yet.
+**Phase 2 — bibles + architecture.** Character and visual specifications are written. No final character artwork, Episode 1 production, voices, music, or renders have been started yet.
 
 ## Intended local PC path
 
