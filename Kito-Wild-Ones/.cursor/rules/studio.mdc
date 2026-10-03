@@ -1,0 +1,43 @@
+---
+description: Always-on rules for the Kito & the Wild Ones children's animation studio
+alwaysApply: true
+---
+
+# Kito & the Wild Ones — Studio Rules
+
+This repository contains an **original children's animation studio** project: **Kito & the Wild Ones** (tagline: *Big Adventures. Little Lessons.*).
+
+## Original IP only
+
+- Never copy existing cartoon characters, designs, logos, music, or copyrighted franchises.
+- Do not imitate trademarked looks closely enough to cause confusion with other shows.
+- Prefer original storytelling, original designs, and original audio direction.
+
+## Consistency
+
+- Maintain **character consistency** with `docs/CHARACTER-BIBLE.md` and approved assets in `characters/`.
+- Maintain **visual consistency** with the Sunrise Valley world and established color, proportion, and style choices.
+- Do not invent conflicting redesigns without explicit creator approval.
+
+## Audience & content
+
+- Stories must be **age-appropriate** for approximately ages 4–8.
+- Keep tone warm, kind, and emotionally safe.
+- Avoid scary, violent, crude, or overstimulating content.
+
+## Creative quality
+
+- Prioritize original storytelling over formula spam.
+- Avoid repetitive mass-produced content; each episode should feel intentional.
+- Prefer reusable production systems (templates, kits, shared assets) that scale cleanly.
+
+## Files & safety
+
+- Keep production files organized in the established folder structure.
+- Never delete important work without permission.
+- Do not start character generation, Episode 1 production, voice/music generation, rendering, or uploads unless the human creator explicitly asks.
+
+## Decision authority
+
+- The **human creator remains the final creative decision-maker**.
+- When uncertain, document options and wait for creator direction rather than locking irreversible creative choices.

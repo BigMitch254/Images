@@ -1,0 +1,57 @@
+# Kito & the Wild Ones — Git ignore
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors / IDE
+.vscode/
+!.cursor/rules/
+*.swp
+*.swo
+*~
+
+# Dependencies / tooling
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.Python
+.env
+.env.*
+!.env.example
+
+# Large / generated media (keep masters intentional)
+renders/**
+!renders/.gitkeep
+exports/**
+!exports/.gitkeep
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.aiff
+*.flac
+*.psd
+*.psb
+*.blend1
+*.blend2
+*.tmp
+*.cache
+
+# Allow documentation and small placeholders
+!*.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archives
+*.zip
+*.rar
+*.7z
